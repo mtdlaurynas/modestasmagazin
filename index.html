@@ -141,7 +141,7 @@
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center">
-					<a class="popup btn btn-outline-dark mt-auto" onclick="myFunction()">Į bagažinę
+					<a class="popup btn btn-outline-dark mt-auto" onclick="myFunction1()">Į bagažinę
 						<span class="popuptext" id="myPopup">Pridėta!</span>
 					</a>
 				</div>
@@ -358,7 +358,10 @@
 function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
-window.setTimeout(popup.classList.toggle("show"), 5000);
+}
+function myFunction1() {
+	myFunction();
+	window.setInterval(myFunction(), 3000);
 }
 </script>
     </body>
