@@ -10834,7 +10834,7 @@ textarea.form-control-lg {
   margin: auto;  
   padding: 20px;
   text-align: center;				
-  border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-image: linear-gradient(to right, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%) 1;
   border-radius: 5px; /* this doesn't work */
   border-width: 4px;
   border-style: solid;
